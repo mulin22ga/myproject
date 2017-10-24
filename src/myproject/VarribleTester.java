@@ -27,7 +27,22 @@ public class VarribleTester {
 	    int len = s.length();
 	    System.out.println("len:" + len);
 	    System.out.println(s.charAt(3));
-	    
+	    //
+	    float f = 5.0f;
+	    int x = 5;
+	    int y = 3;
+	    int z = x%y;//%算出是於數,/算出是商
+	    System.out.println(z);
+	    //
+	    x++;//x累加也可以x=x+1
+	    x--;//x=x-1
+	    System.out.println(x>>1);//往右一個bit
+	    x = x+2;
+	    x+=2;
+	    System.out.println(x+1);
+	    System.out.println(x);
+
+
 
 	    
 	    
