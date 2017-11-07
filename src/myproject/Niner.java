@@ -9,7 +9,7 @@ public class Niner {
 				System.out.print(n + " X " + i + " = ");
 				if ((n * i) < 10) {
 					System.out.print(" ");
-
+				}
 					System.out.println((n * i));
 
 				}
@@ -17,4 +17,3 @@ public class Niner {
 			}
 		}
 	}
-}
