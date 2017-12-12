@@ -6,12 +6,16 @@ public class Student {
 	int chinese;
 	String name;
 
-	public Student(String n, int e, int m, int c) {
-		name = n;
-		english = e;
-		math = m;
-		chinese = c;
+	public Student(String name, int english, int math, int chinese) {
+		this.name = name;
+		this.english = english;
+		this.math = math;
+		this.chinese = chinese;
+		// 加this變成上面藍色的，不加是灰色的
+	}
 
+	public Student(String name) {
+		this.name = name;// 對應第七行 輸入這個可以把6變成7
 	}
 
 	public void print() {
