@@ -1,5 +1,7 @@
 package myproject;
 
+import java.util.Scanner;
+
 public class While {
 
 	public static void main(String[] args) {
@@ -34,7 +36,7 @@ public class While {
 		case 7:
 			System.out.println("星期日");
 			break;
-		default: //其餘的用default
+		default: // 其餘的用default
 			System.out.println("錯誤");
 
 		}
