@@ -5,6 +5,11 @@ public class Student {
 	int math;
 	int chinese;
 	String name;
+	static int pass = 60;
+	// static類別層級
+	public Student(){
+		
+	}
 
 	public Student(String name, int english, int math, int chinese) {
 		this.name = name;
@@ -18,7 +23,12 @@ public class Student {
 		this.name = name;// 對應第七行 輸入這個可以把6變成7
 	}
 
+	public static void method() {
+		System.out.println("hello");
+	}
+
 	public void print() {
+		System.out.println(pass);
 		System.out.println(english + "\t" + math + "\t" + chinese + "\t");
 	}
 
