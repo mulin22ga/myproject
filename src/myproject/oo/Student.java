@@ -1,14 +1,19 @@
 package myproject.oo;
 
 public class Student {
+	// private代表他只能在myproject.oo使用
+	// 比public範圍小
+	// protected可用於繼承的(Student)也可在同類別使用
 	int english;
-	int math;
+	protected int math;
 	int chinese;
 	String name;
+
 	static int pass = 60;
+
 	// static類別層級
-	public Student(){
-		
+	public Student() {
+
 	}
 
 	public Student(String name, int english, int math, int chinese) {
