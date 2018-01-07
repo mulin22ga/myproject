@@ -11,7 +11,7 @@ public class GameTester2 {
 		int row = 3;
 		int col = 5;
 		Scanner scanner = new Scanner(System.in);
-		int d = -1;
+		int d = 100;
 		while (d != 0) {
 			System.out.println("目前位置" + pos + "HP:" + hp);
 			System.out.print("請輸入方向");
@@ -30,9 +30,21 @@ public class GameTester2 {
 				break;
 			case 4:
 				System.out.println("向左");
+				if (pos % col != 0) {
+					pos = pos - 1;
+					hp = hp - 5;
+				} else {
+					hp = hp - 30;
+				}
 				break;
 			case 6:
 				System.out.println("向右");
+				if (pos % col != col - 1) {
+					pos = pos + 1;
+					hp = hp - 5;
+				} else {
+					hp = hp - 30;
+				}
 				break;
 			case 8:
 				System.out.println("向上");

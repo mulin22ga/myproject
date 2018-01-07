@@ -9,7 +9,6 @@ public class Tester {
 		c1.print();
 		SilverCustomer c2 = new SilverCustomer(1000);
 		c2.print();
-
 	}
 
 }
