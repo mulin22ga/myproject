@@ -34,7 +34,7 @@ public class MyServer extends JFrame {
 
 		} catch (IOException e) {
 
-			System.out.print("error");
+			System.out.print("error!!!");
 			
 		}
 	}
