@@ -34,6 +34,8 @@ public class MyServer extends JFrame {
 
 		} catch (IOException e) {
 
+			
+			
 		}
 	}
 
