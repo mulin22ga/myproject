@@ -33,7 +33,7 @@ public class MyServer extends JFrame {
 			System.out.println(command + "/" + option);
 
 		} catch (IOException e) {
-			// TODO: handle exception
+
 		}
 	}
 
