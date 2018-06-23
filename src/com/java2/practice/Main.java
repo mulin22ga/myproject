@@ -21,8 +21,11 @@ public class Main {
 				m.drink.add(new Drink(i + 1, name, price));
 			}
 			m.no();
-		} catch (Exception e) {
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 			System.out.println("No");
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 

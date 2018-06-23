@@ -8,7 +8,7 @@ public class FuleTester {
 
 	public static void main(String[] args) {
 		try {
-			FileOutputStream out = new FileOutputStream("data.txt");
+			FileOutputStream out = new FileOutputStream("data2.txt");
 			out.write(65);
 			out.flush();
 			out.close();
