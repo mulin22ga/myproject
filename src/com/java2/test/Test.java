@@ -16,6 +16,8 @@ public class Test {
 		list.add(3);
 		list.add(1);
 		System.out.println(list);
+
+		// Hash資料不可重複 重複者將前面那個刪除
 		Set<Integer> set = new HashSet<>();
 		set.add(4);
 		set.add(1);
@@ -28,8 +30,8 @@ public class Test {
 		set2.add("Hank");
 		set2.add("Rio");
 		System.out.println(set2);
-		
-		Map<String, String> stocks = new TreeMap<>();//TreeMap會幫忙排序,HashSet不排序不重複
+
+		Map<String, String> stocks = new TreeMap<>();// TreeMap會幫忙排序,HashSet不排序不重複
 		stocks.put("2330", "TSMC");
 		stocks.put("2454", "Mediatek");
 		stocks.put("2317", "HonHai");
